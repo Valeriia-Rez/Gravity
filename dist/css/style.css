@@ -1,3 +1,6 @@
+.container {
+  margin: 0 auto; }
+
 body {
   background-color: #F4F4F4;
   font-size: 14px;
@@ -9,3 +12,41 @@ body {
 .section-card__text-btn {
   background-color: #4737FF;
   letter-spacing: 4px; }
+
+.services-block__menu-list {
+  list-style-type: none;
+  line-height: 28px;
+  padding: 0;
+  margin: 0 auto; }
+
+.menu-link {
+  text-decoration: none;
+  color: #222222;
+  opacity: 0.5; }
+
+.features-icon {
+  width: 44px;
+  height: 44px; }
+
+.features-img__first {
+  position: relative; }
+
+.features-img__second {
+  position: absolute;
+  left: 27%; }
+
+.works {
+  margin-top: 20%; }
+
+.works-header {
+  text-align: center; }
+
+.work-link {
+  font-size: 14px;
+  opacity: 0.3; }
+
+@media screen and (min-width: 768px) {
+  .works-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; } }
