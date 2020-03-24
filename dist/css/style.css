@@ -1,0 +1,11 @@
+body {
+  background-color: #F4F4F4;
+  font-size: 14px;
+  font-family: Fira Sans, sans-serif; }
+
+.section-card__text-p {
+  opacity: 0.7; }
+
+.section-card__text-btn {
+  background-color: #4737FF;
+  letter-spacing: 4px; }
