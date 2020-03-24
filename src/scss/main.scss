@@ -1,68 +1,142 @@
-$primary-color:#F4F4F4;
-$secondary-color:#222222;
-.container {
-    margin: 0 auto;
-}
-
-body {
-    background-color: $primary-color;
-    font-size: 14px;
-    font-family: Fira Sans, sans-serif;
-}
-
-.section-card__text-p {
-    opacity: 0.7;
-}
-
-.section-card__text-btn {
-    background-color: #4737FF;
-    letter-spacing: 4px;
-}
-
-.services-block__menu-list {
-    list-style-type: none;
-    line-height: 28px;
-    padding: 0;
-    margin: 0 auto;
-}
-
-.menu-link {
-    text-decoration: none;
-    color: #222222;
-    opacity: 0.5;
-}
-
-.features-icon {
-    width: 44px;
-    height: 44px;
-}
-
-.features-img__first {
-    position: relative;
-}
-
-.features-img__second {
-    position: absolute;
-    left: 27%;
-}
-
-.works {
-    margin-top: 20%;
-}
-
-.works-header {
-    text-align: center;
-}
-
-.work-link {
-    font-size: 14px;
-    opacity: 0.3;
-}
-
-@media screen and (min-width: 768px) {
-    .works-images {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-}
+        $primary-color:#F4F4F4;
+        $secondary-color:#222222;
+        $bgColorBtn: #4737FF;
+        $colorWhite:#fafafa;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #e5e5e5;
+            color: $secondary-color;
+            font-size: 14px;
+            font-family: "Fira Sans", sans-serif;
+        }
+        
+        h3 {
+            color: #151515;
+            text-align: justify;
+        }
+        
+        .container {
+            margin: 0 auto;
+            padding: 0;
+            background-color: $primary-color;
+        }
+        
+        .rectangleFirst {
+            border-bottom: 2px solid $secondary-color;
+            width: 30px;
+            display: block;
+            height: 7px;
+        }
+        
+        .rectangleSecond {
+            border-bottom: 2px solid $secondary-color;
+            width: 20px;
+            display: block;
+            height: 7px;
+        }
+        
+        .text {
+            opacity: 0.7;
+        }
+        
+        .header-wrapper__btn {
+            background-color: $bgColorBtn;
+            letter-spacing: 4px;
+        }
+        
+        .user {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .title {
+            letter-spacing: 4px;
+            font-weight: 500;
+        }
+        
+        .services-block-menu {
+            list-style-type: none;
+            font-size: 18px;
+            padding: 0;
+            margin: 0 auto;
+        }
+        
+        .menu-link {
+            text-decoration: none;
+            line-height: 28px;
+            color: #222222;
+            opacity: 0.5;
+        }
+        
+        .features-icon {
+            width: 44px;
+            height: 44px;
+        }
+        
+        .features-img__first {
+            position: relative;
+        }
+        
+        .features-img__second {
+            position: absolute;
+            left: 27%;
+        }
+        
+        .works {
+            margin-top: 20%;
+        }
+        
+        .works-header {
+            text-align: center;
+        }
+        
+        .work-link {
+            font-size: 14px;
+            opacity: 0.3;
+        }
+        
+        .clients {
+            background-color: $colorWhite;
+        }
+        
+        @media screen and (min-width: 768px) {
+            .works-images {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        }
+        
+        @media screen and (min-width: 1200px) {
+            .container {
+                max-width: 1360px;
+            }
+            .header-menu__logo {
+                font-size: 24px;
+            }
+            .header-wrapper__heading {
+                font-size: 60px;
+                line-height: 70px;
+            }
+            .heading {
+                font-size: 40px;
+                line-height: 50px;
+            }
+            .text {
+                font-size: 18px;
+                line-height: 28px;
+                width: 78%;
+            }
+            .user {
+                font-size: 22px;
+                font-weight: 500;
+            }
+            .founder {
+                font-size: 18px;
+            }
+        }

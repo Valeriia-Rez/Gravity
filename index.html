@@ -13,54 +13,59 @@
 
 <body>
     <div class="container">
-        <header class="header mt-3">
-            <div class="header-menu d-flex justify-content-between">
-                <div class="header-menu__logo">Gravity</div>
+        <header class="header my-5">
+            <div class="header-menu p-5 d-flex justify-content-between">
+                <div class="header-menu__logo"><strong>Gravity</strong></div>
                 <div class="header-menu__searchIcon"><i class="far fa-search"></i></div>
-                <div class="header-menu__menuIcon">-</div>
+                <div class="header-menu__menuIcon d-flex flex-column">
+                    <span class="rectangleFirst"></span>
+                    <span class="rectangleSecond align-self-end"></span>
+                </div>
+            </div>
+            <div class="header-wrapper row no-gutters">
+                <div class="header-wrapper__text px-5 p-md-5 col-sm-12 col-md-6">
+                    <h1 class="header-wrapper__heading mb-4"><strong>Work around you and your team</strong></h1>
+                    <div class="text">
+                        <p>From ads that dance or sing to MTV-like commercials, online advertisers are now using a new type of technology “rich media” to attract consumers.</p>
+                    </div>
+                    <div><a href="#" class="header-wrapper__btn btn my-5 text-white rounded-0">GET STARTED</a></div>
+                </div>
+                <div class="header-wrapper__image col-sm-12 col-md-6">
+                    <img src="src/img/placeholder.png" class="img-fluid float-md-right" alt="placeholder">
+                </div>
             </div>
         </header>
-        <section class="section-card row mt-4">
-            <div class="section-card__text col-sm-12 col-md-6">
-                <h2><strong>Work around you and your team</strong></h2>
-                <span class="section-card__text-p">From ads that dance or sing to MTV-like commercials, online advertisers are now using a new type of technology “rich media” to attract consumers.</span>
-                <div><a href="#" class="section-card__text-btn btn my-3 text-white rounded-0">GET STARTED</a></div>
-            </div>
 
-            <div class="section-card__image col-sm-12 col-md-6">
-                <img src="src/img/placeholder.png" class="img-fluid" alt="placeholder">
-            </div>
-        </section>
 
-        <section class="section-card row mt-4">
-            <div class="section-card__text col-sm-12 col-md-6">
-                <h2><strong>We solve digital problems with an outstanding creative flare</strong></h2>
-                <span class="section-card__text-p">The best time to view the moon, obviously, is at night when there are few clouds and the weather is accommodating for a long and lasting study.</span>
-                <br>
-                <br>
-                <span class="section-card__text-p">For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.</span>
-                <div class="section-card__user d-flex my-3">
+        <section class="about row px-5 p-md-5">
+            <div class="about-info col-sm-12 col-md-6 order-md-2">
+                <h3 class="heading mt-lg-5 mb-3"><strong>We solve digital problems with an outstanding creative flare</strong></h3>
+                <div class="text">
+                    <p>The best time to view the moon, obviously, is at night when there are few clouds and the weather is accommodating for a long and lasting study.</p>
+                    <p>For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.</p>
+                </div>
+                <div class="about-user d-flex my-3 my-lg-5">
                     <div><img src="src/img/ellipse.png" alt="ellipse"></div>
                     <div class="d-flex flex-column justify-content-center ml-3">
-                        <span>Denis Shepovalov</span>
-                        <span>Co-Founder & CEO</span>
+                        <span class="user">Denis Shepovalov</span>
+                        <span class="founder">Co-Founder & CEO</span>
                     </div>
                 </div>
             </div>
-            <div class="section-card__image col-sm-12 col-md-6">
+            <div class="about-image col-sm-12 col-md-6 order-md-1">
                 <img src="src/img/placeholder2.png" class="img-fluid" alt="placeholder">
             </div>
         </section>
 
-        <section class="services mt-4">
-            <span>-Services</span>
+        <section class="services p-5">
+            <div class="title"><span class="mr-2">&minus;</span>SERVICES</div>
             <div class="services-block row">
-                <div class="services-block__heading col-sm-12 col-md-6 mt-3">
+                <div class="col-sm-12 col-md-5 mt-3 mb-5">
                     <h3><strong>We love work hard and explore new things that’s why we cover lot of things. Check our service list and view details.</strong></h3>
                 </div>
-                <div class="services-block__menu col-sm-12 col-md-6 justify-content-between mt-3">
+                <div class="col-sm-12 col-md-7 justify-content-between mt-3 mb-5">
                     <nav>
-                        <ul class="services-block__menu-list row">
+                        <ul class="services-block-menu row no-gutters">
                             <div class="col">
                                 <li><a href="#" class="menu-link">Multimedia</a></li>
                                 <li><a href="#" class="menu-link">Interactive design</a></li>
@@ -75,7 +80,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="services-block__img col-sm-12 my-3">
+                <div class="services-block__img col-sm-12 my-3 text-center">
                     <img src="src/img/placeholder3.png" class="img-fluid" alt="placeholder">
                 </div>
             </div>
@@ -138,7 +143,7 @@
             <div class="col-sm-12 col-lg-6 mt-3">
                 <span>-Testimonials</span>
                 <h2 class="my-3">"Professionals in their craft! All products were super great with strong attention to details, and overall vibe"</h2>
-                <div class="d-flex flex-column">
+                <div class="d-flex flex-column my-3">
                     <span>Polina Kuzina</span>
                     <span>Manager at Craftwork</span>
                 </div>
@@ -149,6 +154,25 @@
 
         </section>
     </div>
+    <section class="clients p-4">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 my-4">
+                <h2>Our Clients</h2>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-4">
+                <span>- WE WORKED WITH</span>
+                <p>Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col p-4"><img src="src/img/xiaomi.png"></div>
+            <div class="col p-4"><img src="src/img/tinder.png"></div>
+            <div class="col p-4"><img src="src/img/apple.png"></div>
+            <div class="col p-4"><img src="src/img/nike.png"></div>
+            <div class="col p-4"><img src="src/img/amd.png"></div>
+        </div>
+    </section>
+    <div class="container p-5"></div>
 
 
 
