@@ -1,0 +1,14 @@
+.about {
+    &__user {
+        font-size: 18px;
+        font-weight: 500;
+        @media screen and (min-width: 1200px) {
+            font-size: 22px;
+        }
+    }
+    &__founder {
+        @media screen and (min-width: 1200px) {
+            font-size: 18px;
+        }
+    }
+}

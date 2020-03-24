@@ -1,0 +1,13 @@
+.features {
+    &__icon {
+        width: 44px;
+        height: 44px;
+    }
+    &__imgPrimary {
+        position: relative;
+    }
+    &__imgSecondary {
+        position: absolute;
+        left: 32%;
+    }
+}
