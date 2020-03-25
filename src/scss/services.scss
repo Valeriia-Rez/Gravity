@@ -20,5 +20,10 @@
         text-decoration: none;
         color: $secondary-color;
         opacity: 0.5;
+        &:hover {
+            color: $bgColorBtn;
+            text-decoration: none;
+            opacity: 1;
+        }
     }
 }

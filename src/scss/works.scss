@@ -24,8 +24,18 @@
             line-height: 24px;
             font-size: 14px;
         }
+        &:hover {
+            color: $bgColorBtn;
+            text-decoration: none;
+            opacity: 1;
+        }
+        &:nth-child(1) {
+            color: $bgColorBtn;
+            opacity: 1;
+        }
     }
     &__images {
+        cursor: pointer;
         @media screen and (min-width: 375px) {
             display: flex;
             flex-direction: row;
