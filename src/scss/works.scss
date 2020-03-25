@@ -8,7 +8,11 @@
     }
     &__nav {
         @media screen and (min-width: 768px) {
-            word-spacing: 10px;
+            letter-spacing: 2px;
+        }
+        @media screen and (min-width: 1200px) {
+            word-spacing: 30px;
+            padding-left: 100px;
         }
     }
     &__link {
@@ -16,12 +20,20 @@
         opacity: 0.3;
         text-decoration: none;
         color: $secondary-color;
+        @media screen and (min-width: 960px) {
+            line-height: 24px;
+            font-size: 14px;
+        }
     }
     &__images {
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 375px) {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            text-align: center;
+        }
+        @media screen and (min-width: 768px) {
+            text-align: start;
         }
     }
 }

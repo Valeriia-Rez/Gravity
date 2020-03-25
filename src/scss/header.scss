@@ -27,23 +27,24 @@
     }
     &__block {
         padding: 0 40px;
+        @media screen and (min-width: 768px) {
+            padding-top: 80px;
+        }
         @media screen and (min-width: 960px) {
-            padding: 40px 70px;
+            padding: 100px 70px;
         }
         @media screen and (min-width: 1200px) {
-            padding: 120px 109px 25px;
-        }
-    }
-    &__heading {
-        @media screen and (min-width: 1200px) {
-            font-size: 60px;
-            line-height: 70px;
+            padding: 140px 0 25px 109px;
         }
     }
     &__heading {
         @media screen and (min-width: 768px) {
             font-size: 40px;
             line-height: 50px;
+        }
+        @media screen and (min-width: 1200px) {
+            font-size: 60px;
+            line-height: 70px;
         }
     }
 }
