@@ -9,6 +9,7 @@ body {
     color: $secondary-color;
     font-size: 14px;
     font-family: "Fira Sans", sans-serif;
+    position: relative;
 }
 
 h3 {
@@ -19,6 +20,12 @@ h3 {
     margin: 0 auto;
     padding: 0;
     background-color: $primary-color;
+    @media screen and (min-width: 768px) {
+        max-width: 960px;
+    }
+    @media screen and (min-width: 961px) {
+        max-width: 1199px;
+    }
     @media screen and (min-width: 1200px) {
         max-width: 1360px;
     }
@@ -26,7 +33,10 @@ h3 {
 
 .custom__btn--primary {
     background-color: $bgColorBtn;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
+    @media screen and (min-width: 768px) {
+        letter-spacing: 4px;
+    }
 }
 
 .text {
@@ -36,4 +46,9 @@ h3 {
         line-height: 28px;
         width: 78%;
     }
+}
+
+.title {
+    letter-spacing: 4px;
+    font-weight: 500;
 }

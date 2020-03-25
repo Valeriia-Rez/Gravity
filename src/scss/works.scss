@@ -1,11 +1,18 @@
 .works {
-    margin-top: 20%;
-    &__header {
-        text-align: center;
+    margin-top: 25%;
+    @media screen and (min-width: 1200px) {
+        margin-top: 12%;
+    }
+    &__nav {
+        @media screen and (min-width: 768px) {
+            word-spacing: 10px;
+        }
     }
     &__link {
-        font-size: 14px;
+        font-size: 13px;
         opacity: 0.3;
+        text-decoration: none;
+        color: $secondary-color;
     }
     &__images {
         @media screen and (min-width: 768px) {

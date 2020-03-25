@@ -3,11 +3,17 @@
         width: 44px;
         height: 44px;
     }
-    &__imgPrimary {
+    /* &__imgPrimary {
         position: relative;
-    }
+    }*/
     &__imgSecondary {
         position: absolute;
-        left: 32%;
+        left: 33%;
+        top: 16%;
+        height: 325px;
+        @media screen and (min-width: 768px) {
+            height: 450px;
+            left: 50%;
+        }
     }
 }

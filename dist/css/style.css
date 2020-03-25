@@ -7,7 +7,8 @@ body {
   background-color: #e5e5e5;
   color: #222222;
   font-size: 14px;
-  font-family: "Fira Sans", sans-serif; }
+  font-family: "Fira Sans", sans-serif;
+  position: relative; }
 
 h3 {
   color: #151515; }
@@ -16,13 +17,22 @@ h3 {
   margin: 0 auto;
   padding: 0;
   background-color: #F4F4F4; }
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 960px; } }
+  @media screen and (min-width: 961px) {
+    .container {
+      max-width: 1199px; } }
   @media screen and (min-width: 1200px) {
     .container {
       max-width: 1360px; } }
 
 .custom__btn--primary {
   background-color: #4737FF;
-  letter-spacing: 4px; }
+  letter-spacing: 2px; }
+  @media screen and (min-width: 768px) {
+    .custom__btn--primary {
+      letter-spacing: 4px; } }
 
 .text {
   opacity: 0.7; }
@@ -31,6 +41,10 @@ h3 {
       font-size: 18px;
       line-height: 28px;
       width: 78%; } }
+
+.title {
+  letter-spacing: 4px;
+  font-weight: 500; }
 
 .header__rectangleFirst {
   border-bottom: 2px solid #222222;
@@ -69,16 +83,12 @@ h3 {
   .about__founder {
     font-size: 18px; } }
 
-.services__title {
-  letter-spacing: 4px;
-  font-weight: 500; }
-
 .services__menu {
   list-style-type: none;
   font-size: 18px;
   padding: 0;
   margin: 0 auto;
-  line-height: 28px; }
+  line-height: 35px; }
 
 .services__link {
   text-decoration: none;
@@ -86,28 +96,40 @@ h3 {
   opacity: 0.5; }
 
 .works {
-  margin-top: 20%; }
-  .works__header {
-    text-align: center; }
+  margin-top: 25%; }
+  @media screen and (min-width: 1200px) {
+    .works {
+      margin-top: 12%; } }
+  @media screen and (min-width: 768px) {
+    .works__nav {
+      word-spacing: 10px; } }
   .works__link {
-    font-size: 14px;
-    opacity: 0.3; }
+    font-size: 13px;
+    opacity: 0.3;
+    text-decoration: none;
+    color: #222222; }
   @media screen and (min-width: 768px) {
     .works__images {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; } }
 
-.features__icon {
-  width: 44px;
-  height: 44px; }
-
-.features__imgPrimary {
-  position: relative; }
-
-.features__imgSecondary {
-  position: absolute;
-  left: 32%; }
+.features {
+  /* &__imgPrimary {
+        position: relative;
+    }*/ }
+  .features__icon {
+    width: 44px;
+    height: 44px; }
+  .features__imgSecondary {
+    position: absolute;
+    left: 33%;
+    top: 16%;
+    height: 325px; }
+    @media screen and (min-width: 768px) {
+      .features__imgSecondary {
+        height: 450px;
+        left: 50%; } }
 
 .clients {
   background-color: #fafafa; }
