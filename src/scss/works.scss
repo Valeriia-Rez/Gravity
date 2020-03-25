@@ -1,7 +1,10 @@
 .works {
-    margin-top: 25%;
+    padding: 80px 40px 0;
+    @media screen and (min-width: 960px) {
+        padding: 120px 70px 60px;
+    }
     @media screen and (min-width: 1200px) {
-        margin-top: 12%;
+        padding: 190px 109px 100px;
     }
     &__nav {
         @media screen and (min-width: 768px) {

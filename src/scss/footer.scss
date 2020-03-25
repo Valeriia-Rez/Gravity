@@ -1,0 +1,12 @@
+.footer {
+    background-color: $colorWhite;
+    padding: 20px 40px;
+    max-width: 1360px;
+    margin: 0 auto;
+    @media screen and (min-width: 960px) {
+        padding: 40px 70px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding: 80px 109px;
+    }
+}

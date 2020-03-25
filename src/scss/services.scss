@@ -1,4 +1,11 @@
 .services {
+    padding: 50px 40px;
+    @media screen and (min-width: 960px) {
+        padding: 70px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding: 140px 109px 0;
+    }
     &__menu {
         list-style-type: none;
         font-size: 18px;

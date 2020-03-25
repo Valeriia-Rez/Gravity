@@ -1,11 +1,20 @@
 .features {
+    @media screen and (min-width: 1200px) {
+        padding: 140px 109px 0 0;
+    }
     &__icon {
         width: 44px;
         height: 44px;
     }
-    /* &__imgPrimary {
-        position: relative;
-    }*/
+    &__text {
+        padding: 0px 40px;
+        @media screen and (min-width: 960px) {
+            padding: 0 70px;
+        }
+        @media screen and (min-width: 1200px) {
+            padding: 0;
+        }
+    }
     &__imgSecondary {
         position: absolute;
         left: 33%;
