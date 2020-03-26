@@ -1,9 +1,9 @@
-# prototype-webpack-js-sass
+
 
 ## Run project locally in development
 
 npm install
-npm run dev
+npm start
 
 ## Build project for production
 
