@@ -1,18 +1,14 @@
 .works {
-    padding: 80px 40px 0;
+    padding: 20px 40px 0;
     @media screen and (min-width: 960px) {
-        padding: 120px 70px 60px;
+        padding: 60px 70px 60px;
     }
     @media screen and (min-width: 1200px) {
-        padding: 190px 109px 100px;
+        padding: 130px 109px 100px;
     }
     &__nav {
         @media screen and (min-width: 768px) {
-            letter-spacing: 2px;
-        }
-        @media screen and (min-width: 1200px) {
-            word-spacing: 30px;
-            padding-left: 100px;
+            letter-spacing: 4px;
         }
     }
     &__link {
@@ -25,12 +21,12 @@
             font-size: 14px;
         }
         &:hover {
-            color: $bgColorBtn;
+            color: $colorLink;
             text-decoration: none;
             opacity: 1;
         }
         &:nth-child(1) {
-            color: $bgColorBtn;
+            color: $colorLink;
             opacity: 1;
         }
     }

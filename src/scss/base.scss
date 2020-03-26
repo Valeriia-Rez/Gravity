@@ -9,11 +9,6 @@
         color: $secondary-color;
         font-size: 14px;
         font-family: "Fira Sans", sans-serif;
-        position: relative;
-    }
-    
-    h3 {
-        color: $darkColor;
     }
     
     .container {
@@ -32,16 +27,15 @@
     }
     
     .custom__btn--primary {
-        background-color: $bgColorBtn;
+        background-color: $colorLink;
         letter-spacing: 2px;
         padding: 15px;
         @media screen and (min-width: 768px) {
             letter-spacing: 4px;
         }
-    }
-    
-    .custom__btn--primary:hover {
-        opacity: 0.8;
+        &:hover {
+            opacity: 0.8;
+        }
     }
     
     .text {
@@ -55,6 +49,7 @@
     .title {
         letter-spacing: 4px;
         font-weight: 500;
+        opacity: 0.7;
     }
     
     .author {
@@ -77,6 +72,5 @@
             font-size: 40px;
             line-height: 50px;
             letter-spacing: -1px;
-            word-spacing: -5px;
         }
     }
